@@ -4,5 +4,5 @@ class ColorPickerInput(forms.TextInput):
         if attrs is not None:
             class_attrs.update(attrs)
         super().__init__(class_attrs)
-        self.template_name = 'components/color_picker_input.html'
+        self.template_name = 'components/template_color_picker_input.html'
         
